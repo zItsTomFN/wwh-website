@@ -1,0 +1,109 @@
+body {
+    background-color: #2C2F33;
+}
+
+#waveimg {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: block;
+}
+
+#underwave {
+    background-color: #eee;
+    height: 500px;
+    width: 100%;
+}
+
+#start {
+    overflow: hidden;
+    position: relative;
+    background-color: #2C2F33;
+    color: aliceblue;
+    background-size: 300px 1000px;
+    height: 100px;
+    top: 200;
+    margin-top: 100px;
+}
+
+#title {
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+}
+
+#description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#wave {
+    background-image: url("waves.png");
+}
+
+#box {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 240px auto;
+    background: #eee;
+}
+
+#boxing {
+    width: 95%;
+    height: 270px;
+    background: #2C2F33;
+    margin: 240px auto;
+    box-sizing: border-box;
+    border-radius: 3%;
+    transition: 0.3s;
+}
+
+#boxing a {
+    text-decoration: none;
+}
+
+#boxing:hover {
+    position: relative;
+    top: -5px;
+}
+
+#boxing-discord {
+    width: 95%;
+    height: 150px;
+    background: #2C2F33;
+    margin: 240px auto;
+    box-sizing: border-box;
+    border-radius: 3%;
+    transition: 0.3s;
+}
+
+#boxing-discord a {
+    text-decoration: none;
+}
+
+#boxing-discord:hover {
+    position: relative;
+    top: -5px;
+}
+
+#titlebox {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#descriptionbox {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#footer {
+    position: fixed;
+    bottom: -60%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
